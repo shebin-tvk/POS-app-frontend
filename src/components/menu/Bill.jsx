@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getTotalPrice } from "../../redux/slices/cartSlice";
+import { getTotalPrice } from "../../Redux/slices/cartSlice";
 import { addOrder, createOrderRazorpay, updateTable, verifyPaymentRazorpay } from "../../https/index";
 import { enqueueSnackbar } from "notistack";
 import { useMutation } from "@tanstack/react-query";
-import { removeAllItems } from "../../redux/slices/cartSlice";
+import { removeAllItems } from "../../Redux/Slices/cartSlice";
 import { removeCustomer } from "../../Redux/Slices/customerSlice";
 import Invoice from "../invoice/Invoice";
 
