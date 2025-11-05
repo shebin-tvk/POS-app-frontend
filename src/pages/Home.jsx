@@ -1,6 +1,6 @@
 // import React from 'react'
 import BottomNav from '../components/shared/BottomNav'
-import Greetings from '../components/Home/greetings'
+import Greetings from '../components/Home/Greetings'
 import MiniCard from '../components/Home/MiniCard'
 import RecentOrders from '../components/Home/RecentOrders';
 import PopularDishes from '../components/Home/PopularDishes';
@@ -37,5 +37,3 @@ const Home = () => {
 }
 
 export default Home
-
-// left
