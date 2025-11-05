@@ -5,7 +5,7 @@ import { addOrder, createOrderRazorpay, updateTable, verifyPaymentRazorpay } fro
 import { enqueueSnackbar } from "notistack";
 import { useMutation } from "@tanstack/react-query";
 import { removeAllItems } from "../../redux/slices/cartSlice";
-import { removeCustomer } from "../../redux/slices/customerSlice";
+import { removeCustomer } from "../../Redux/Slices/customerSlice";
 import Invoice from "../invoice/Invoice";
 
 function loadScript(src) {
