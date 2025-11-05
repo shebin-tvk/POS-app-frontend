@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setCustomer } from "../../Redux/Slices/customerSlice";
-import Modal from "./modal";
+import Modal from "./Modal";
 import { FaHome } from "react-icons/fa";
 import { MdOutlineReorder, MdOutlineTableBar } from "react-icons/md";
 import { CiCircleMore } from "react-icons/ci";
